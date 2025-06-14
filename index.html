@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>湯布院ガイドブック</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+      background-color: #fdfaf6;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #c4a484;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+    }
+    nav {
+      background-color: #e8dccf;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0.8rem 0.5rem;
+    }
+    nav a {
+      margin: 0.3rem 0.8rem;
+      color: #5c3d2e;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.95rem;
+    }
+    section {
+      padding: 1.5rem 1rem;
+      max-width: 720px;
+      margin: auto;
+    }
+    h2 {
+      color: #5c3d2e;
+      font-size: 1.3rem;
+      margin-bottom: 0.8rem;
+      border-left: 5px solid #c4a484;
+      padding-left: 0.6rem;
+    }
+    .photo {
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    li {
+      margin-bottom: 0.6rem;
+    }
+    footer {
+      background-color: #c4a484;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      font-size: 0.95rem;
+    }
+    .label {
+        display: inline-block;
+        background-color: #f9e6d1;
+        color: #5c3d2e;
+        padding: 0.4rem 0.8rem;
+        border-radius: 999px;
+        font-weight: bold;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    .spot-text {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    /* スマホ表示の細かい調整 */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+      nav a {
+        font-size: 0.9rem;
+      }
+      section {
+        padding: 1.2rem 0.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>湯布院ガイドブック</h1>
+    <p>旅館でゆっくり！湯布院旅のしおり</p>
+  </header>
+
+  <nav>
+    <a href="#spot">おすすめスポット</a>
+    <a href="#cafe">カフェ</a>
+    <a href="#gourmet">グルメ</a>
+    <a href="#memo">メモ</a>
+    <a href="#promise">約束事</a>
+    <a href="#afterword">あとがき</a>
+  </nav>
+
+  <section id="spot">
+    <h2>おすすめスポット</h2>
+    <p class="label">金鱗湖</p>
+    <p class="spot-text">金鱗湖や由布岳など、自然に癒されるスポットがたくさん！</p>
+    <img src="photo/1.jpg" alt="湯布院の風景" class="photo">
+  
+    <p class="label">湯の坪街道</p>
+    <p class="spot-text">由布院駅から金鱗湖へ向かう約800mのストリート。レトロな街並みとおしゃれなカフェ、スイーツ店、雑貨店が軒を連ねていて、食べ歩きをしながら散策するのがおすすめ！</p>
+    <img src="photo/2.jpg" alt="湯布院の風景" class="photo">
+  
+    <p class="label">artegio</p>
+    <p class="spot-text">カフェとチョコレートショップが併設された音楽をテーマにした美術館</p>
+    <img src="photo/3.jpg" alt="湯布院の風景" class="photo">
+  
+    <p class="label">ノルウェイの森</p>
+    <p class="spot-text">長毛種の猫に触れ合える猫カフェ。猫雑貨のお店『由布院の猫屋敷』2階にあるにゃ🐈</p>
+    <img src="photo/4.jpg" alt="湯布院の風景" class="photo">
+  
+    <p class="label">湯布院保護猫フォレスト</p>
+    <p class="spot-text">保護猫と触れ合えるテーマパーク(仮)。今は猫カフェとレストランと雑貨屋さん、宿泊施設のみ空いてて今後はアトラクションができるそうにゃ🐈</p>
+    <img src="photo/5.jpg" alt="湯布院の風景" class="photo">
+  
+    <p class="label">石畳の驛 つるや</p>
+    <p class="spot-text">湯平温泉付近にある、石畳の道に面した湯平観光の総合施設。大人気のゆのひらんアイス・ビールなどのお酒を販売しているそう！</p>
+    <img src="photo/6.jpg" alt="湯布院の風景" class="photo">
+  </section>
+  
+  <section id="cafe">
+    <h2>立ち寄りたいお洒落カフェ</h2>
+    <p class="label">湯布珈琲</p>
+    <p class="spot-text">珈琲廻廊の系列店！絶対行きたい✨</p>
+    <img src="photo/7.jpg" alt="湯布院のカフェ" class="photo">
+  
+    <p class="label">5toku</p>
+    <p class="spot-text">抹茶ラテが美味しいお店。日本茶やほうじ茶も販売してたテイクアウト専門店</p>
+    <img src="photo/8.jpg" alt="湯布院のカフェ" class="photo">
+  </section>
+  
+  <section id="gourmet">
+    <h2>ここに来たら食べなきゃ損！おすすめグルメ</h2>
+    <p class="label">Pizzeria 櫟の丘</p>
+    <p>ピザやパスタ、お肉料理があって、味は本当に美味しいけど量が多いので注意！</p>
+    <img src="photo/9.jpg" alt="グルメ" class="photo">
+  
+    <p class="label">茶房 天井棧敷</p>
+    <p>とにかく店内がおしゃれなお店。カツサンドとビーフシチューが有名みたい！</p>
+    <img src="photo/10.jpg" alt="グルメ" class="photo">
+  
+    <p class="label">地酒の店はかり屋</p>
+    <p>大分県を代表する名酒や地酒、酒器やつまみ類が並んでいるお店。宿で乾杯する用のお酒調達にいいかも♡</p>
+    <img src="photo/11.jpg" alt="グルメ" class="photo">
+  </section>
+
+  <section id="memo">
+    <h2>旅のメモ</h2>
+    <ul>
+      <li>チェックイン：16:00〜</li>
+      <li>夕飯は旅館の会席料理</li>
+      <li>次の日は湯の坪街道を散策予定</li>
+      <li>おそろいの浴衣を着て写真撮りたい📸</li>
+    </ul>
+  </section>
+
+  <section id="promise">
+    <h2>約束事</h2>
+    <ul>
+      <li>絶対に喧嘩をしないこと</li>
+      <li>ムカついても言葉遣いに気をつけること</li>
+      <li>忘れ物に気を付ける</li>
+      <li>相手任せにしないこと</li>
+      <li>笑顔で楽しむこと☺️</li>
+    </ul>
+  </section>
+
+  <section id="afterword">
+    <h2>あとがき</h2>
+    <p>
+      まずは改めて1年間一緒に居てくれてありがとう！<br>
+      旅行の計画立てた時からすっごく楽しみにしてきたから、<br><br>
+      今回どんな旅になるか楽しみだね。<br>
+      念願の温泉にも入れるし、ふたりでゆっくり楽しもう♨️<br><br>
+      心も体もリラックスできる、そんな旅になりますように。<br>
+      <br>
+      拓摩くん、いつもありがとう。これからもよろしくね。
+    </p>
+  </section>
+
+  <footer>
+    <p>2025.0615 ~ 0617</p>
+  </footer>
+
+</body>
+</html>
